@@ -1,0 +1,17 @@
+<html>
+  <head>
+    </head>
+  <body>
+    <script>
+      function download(fileUrl, fileName) {
+  var a = document.createElement("a");
+  a.href = fileUrl;
+  a.setAttribute("download", fileName);
+  a.click();
+}
+
+download("https://codesource.io/wp-content/uploads/2020/08/codesource.png", "Codesource_Logo.png");
+
+      </script>
+    </body>
+  </html>
